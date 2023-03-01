@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:57693/sis-financeiro-receita?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:57693/sis_financeiro_receita?createDatabaseIfNotExist=true
     username: root
-    password: ${USER_PASSWORD}
+    password: ${USER_PASSWORD:root}
   jpa:
     properties:
       hibernate:
